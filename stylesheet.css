@@ -223,10 +223,7 @@ body {
     width: 50px !important;
   }
 
-  .item-container img { 
 
-    width: 70px;
-   }
 
    .mascot {
     margin-top: 3rem !important;
@@ -243,6 +240,17 @@ body {
 
    .social-item {
     margin-left: 3.5rem !important;
+    height: 78px;
    }
+
+   .img-overflow {
+    height: 78px;
+   }
+
+   .item-container img {
+    width: 51px;
+    bottom: 0px;
+   }
+
 }
 
