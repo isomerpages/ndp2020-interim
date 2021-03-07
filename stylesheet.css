@@ -1,9 +1,18 @@
-body{
+/*body{
   background-image: linear-gradient(90deg, #F1615A 0%, #EF4060 20%, #8C3393 98.44%);
+}
+*/
+
+body {
+   background-image: url('assets/background.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   height:100%;
 }
 
 .body{
   position:relative;
+
 }
 .container {
   color: white;
@@ -24,4 +33,127 @@ body{
   font-weight: normal;
   font-style: normal;
 
+}
+
+
+.center-a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mascot-img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 50%;
+  border: 7px solid #FD7B28;
+}
+
+.icons-row {
+  display: flex;
+  position: relative;
+}
+
+.icons-item {
+  width: 50%;
+}
+
+.social-item {
+  background-color: #F7F8F7;
+  color: #484848;
+  border-radius: 20px;
+  border: 4px solid #FD7B28;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0px 2rem;
+  margin-bottom: 5rem;
+  height: 120px;
+  text-decoration: none !important;
+  margin-left: 3rem;
+}
+
+.logo-container {
+  height: 160px;
+  width: 160px;
+  margin-left: -3rem;
+  border-radius: 50%;
+  border: 4px solid #FD7B28;
+  display: flex;
+  background-color: #F7F8F7;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.logo-container img {
+    width: 100px;
+    height: auto;
+    margin: 3rem;
+}
+
+.item-container {
+
+  overflow: hidden;
+}
+
+.item-container p {
+  font-size: 1.6rem !important;
+  margin: 0px 1rem;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+.item-container img {
+  width: 120px;
+  height: auto;
+  position: absolute;
+  right: 1rem;
+  bottom: -2rem;
+}
+
+.item-container {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  height: 100%
+}
+
+@media all and (max-width: 992px) {
+  .icons-row {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+  }
+
+  .icons-item {
+    width: 100%;
+  }
+
+}
+
+.img-overflow {
+    overflow: hidden;
+    position: absolute;
+    right:0px;
+    height: 120px;
+    width: 220px;
+}
+
+@media all and (max-width: 1322px) {
+  .item-container p {
+    font-size: 1rem !important;
+  }
+
+  .logo-container {
+    height: 130px !important;
+    width: 130px !important;
+  }
+
+  .logo-container img {
+    margin: 1rem !important;
+    width: 70px !important;
+  }
 }
