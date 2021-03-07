@@ -237,3 +237,9 @@ body {
       max-width: 100px !important;
    }
 }
+
+@media all and (max-width: 441px) {
+  .img-overflow {
+    display: none;
+  }
+}
