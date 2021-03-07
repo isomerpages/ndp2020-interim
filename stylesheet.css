@@ -10,20 +10,21 @@ html, body, div{
 body {
    background-image: url('assets/background.jpg');
    background-size: cover;
-
-   height:100vh;
+   height: 100%;
+ 
 }
 
-@media all and (min-width: 992px) {
-  .mascot {
-    margin-bottom: 2rem;
+ .mascot {
+   height: 200px;
+   margin-bottom: 4rem !important;
   }
-}
+
+
 
 @media all and (max-width: 992px) {
   body {
     background-size: cover;
-       height:100vh;
+    
         background-repeat: unset;
   }
 }
@@ -57,7 +58,7 @@ body {
 .center-a {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;  
 }
 
 .mascot-img {
