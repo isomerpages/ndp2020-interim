@@ -236,10 +236,13 @@ body {
    .mascot-img {
       max-width: 100px !important;
    }
+
+   .container {
+    width: 95% !important;
+   }
+
+   .social-item {
+    margin-left: 3.5rem !important;
+   }
 }
 
-@media all and (max-width: 441px) {
-  .img-overflow {
-    display: none;
-  }
-}
