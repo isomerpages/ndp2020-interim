@@ -79,3 +79,9 @@ body {
     display: flex;
 }
 
+@media all and (max-width:883px) {
+	.icon2 {
+		    width: 40vw !important;
+	}
+}
+
