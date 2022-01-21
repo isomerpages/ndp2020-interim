@@ -95,3 +95,7 @@ body {
  min-height: 300px;
   height: auto;
 }
+
+
+.iconContainer3 .iconText {
+	padding:1rem !important;
