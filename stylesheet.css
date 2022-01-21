@@ -85,6 +85,13 @@ body {
 	}
 }
 
-.iconContainer3 img {
+.iconContainer3  {
 	width: 40vw;
+	position: relative
+}
+
+.iconContainer3 img {
+	 width: 100%;
+  max-width: 400px;
+  height: auto;
 }
