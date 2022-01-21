@@ -97,6 +97,18 @@ body {
 	    object-fit: cover;
 }
 
+@media all and (max-width: 768px) {
+	.background-container #mascotContainer {
+		flex-direction: column !important;
+	}
+	
+	.iconContainer3 {
+		width: 100vw !important;
+	}
+}
+
 
 .iconContainer3 .iconText {
 	padding:1rem !important;
+	
+}
