@@ -71,6 +71,21 @@ body {
     margin: 0px auto;
 	margin-bottom: 10px !important;
 }
+
+@media all and (max-width: 768px) {
+	
+.iconText img {
+    display: block;
+    max-width:auto;
+    width: auto;
+    height: 40px !important;
+    max-height: auto;
+    margin: 0px auto;
+	margin-bottom: 10px !important;
+}
+}
+
+
 .iconText2{
     justify-content: center;
     display: flex;
