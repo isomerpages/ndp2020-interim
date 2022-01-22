@@ -67,7 +67,7 @@ body {
     max-width:auto;
     width: auto;
     height: 40px;
- 
+    max-height: auto;
     margin: 0px auto;
 	margin-bottom: 10px !important;
 }
