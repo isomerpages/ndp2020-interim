@@ -60,11 +60,16 @@ body {
     width:50vw;
     margin: 0 auto;
 }
-.iconText{
-    justify-content: center;
-    display: flex;
-    height: 10%;
-    padding-bottom: 2%
+
+
+.iconText img {
+    display: block;
+    max-width: 90%;
+    width: 90%;
+    height: auto;
+ 
+    margin: 0px auto;
+	margin-bottom: 10px !important;
 }
 .iconText2{
     justify-content: center;
